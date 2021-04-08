@@ -1,0 +1,10 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorControlNormal">#1D69AB</item>
+        <item name="colorControlActivated">#1D69AB</item>
+        <item name="colorControlHighlight">#1D69AB</item>
+    </style>
+
+</resources>

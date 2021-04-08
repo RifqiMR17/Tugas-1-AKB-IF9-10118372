@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#1D69AB">
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="245dp"
+        android:layout_height="241dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/bgdrm1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/logo1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Profile"
+        android:background="#fff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnKeluar"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/BtnProfile"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Keluar"
+        android:background="#fff"/>
+
+</RelativeLayout>
